@@ -1,0 +1,44 @@
+body {
+    width: 30%;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#greet-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    padding: 10px;
+}
+
+input {
+     outline: none;
+}
+
+button {
+    padding: 5px;
+    width: 20%;
+    position: absolute;
+    left: 46%;
+    cursor: pointer;
+}
+
+
+fieldset {
+    padding-bottom: 35px;
+}
